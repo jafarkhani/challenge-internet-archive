@@ -3,7 +3,7 @@ import CurrencyFormat  from 'react-currency-format';
 import ErrorHandler from '../error/ErrorHandler';
 import './RelatedItems.scss';
 
-function RelatedPostItem(props){
+function RelatedPostItem(props){ 
     
     let loadPostItem = props.onChangePost;
     try{
