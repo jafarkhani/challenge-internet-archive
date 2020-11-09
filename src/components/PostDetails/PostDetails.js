@@ -1,4 +1,6 @@
 
+import './PostDetails.scss';
+
 function PostDetails(props){
 
     const exceptionKeys = ["title", "description", "backup_location", "licenseurl"];

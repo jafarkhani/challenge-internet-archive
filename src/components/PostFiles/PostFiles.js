@@ -1,4 +1,5 @@
 import React from 'react';
+import './PostFiles.scss';
 
 function PostFiles(props){
 
@@ -25,8 +26,8 @@ function PostFiles(props){
             <li className="list-group-item d-flex justify-content-between align-items-center">
                 <a target="blank" href={
                     fileTypes[format].fileCount>1 
-                        ? props.downloadCompress + props.identifier + "/format=" + format
-                        : props.downloadFile + props.identifier + "/" + fileTypes[format].name }>
+                        ? props.urls.downloadCompress + props.identifier + "/format=" + format
+                        : props.urls.downloadFile + props.identifier + "/" + fileTypes[format].name }>
                 
                 {format}{fileTypes[format].fileCount > 1 ? 
                 "( " + fileTypes[format].fileCount + " files )" : ""}</a>

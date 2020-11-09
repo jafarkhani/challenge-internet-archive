@@ -1,0 +1,43 @@
+
+  .related-post-container{
+    background-color: #efefef;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.33);
+  }
+  .related-post{
+    width: 185px;
+    box-shadow: 1px 0px 2px 1px rgb(175, 175, 175);
+    padding: 2px;
+    margin: 4px;
+  
+    img {
+      cursor: pointer;
+    }
+  }
+  .related-post-title{
+    height: 50px;
+    color: black;
+    cursor: pointer;
+  }
+  .related-post-features{
+  
+    div{
+      text-align: center;
+      font-size: 7pt;
+      color: gray;
+      padding: 10px;
+    }
+    div:not(:last-child) {
+      border-right: 1px solid lightgray;
+    }
+  }
+  
+  .related-post-icon {
+    font-size: 120%;
+    color: gray;
+    
+    &.film{
+      font-size: 250% !important;
+      color: #f1644b !important;
+    }
+  }
+  

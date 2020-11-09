@@ -1,0 +1,37 @@
+
+  .post-video-container{
+    background-color: black;
+  }
+  
+  .video-frame{
+    width: 640px;
+    height: 480px;
+    max-width: 100%;
+  }
+  .post-video-features {
+    border: 1px solid lightgray;
+    color: lightgray;
+    margin-left: 5px;
+    padding: 15px;
+    font-size: 300%;
+    margin-right: 4px;
+  }
+  .post-video-star{ @extend .post-video-features; }
+  .post-video-share{ @extend .post-video-features; }
+  .post-video-flag{ @extend .post-video-features; }
+  
+  .post-video-star:hover{
+    color : orange;
+    border-color: orange;
+  }
+  
+  .post-video-share:hover{
+    color : blue;
+    border-color: blue;
+  }
+  
+  .post-video-flag:hover{
+    color : red;
+    border-color: red;
+  }
+  

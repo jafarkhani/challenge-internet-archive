@@ -1,4 +1,4 @@
-
+import './PostVideo.scss';
 
 function PostVideo(props){
 

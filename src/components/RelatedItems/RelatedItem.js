@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CurrencyFormat  from 'react-currency-format';
-import ErrorHandler from '../core/error/ErrorHandler';
+import ErrorHandler from '../error/ErrorHandler';
+import './RelatedItems.scss';
 
 function RelatedPostItem(props){
     

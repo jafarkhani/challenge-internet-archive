@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createBrowserHistory } from "history";
-import PostItem from './components/PostItem';
 import { Router, Route, Switch } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import * as Icons from '@fortawesome/free-solid-svg-icons';
+import './index.scss';
+
+import PostItem from './components/PostItem/PostItem';
 
 const iconList = Object
   .keys(Icons)

@@ -1,5 +1,6 @@
 import _ from 'underscore';
 import PostReview from './PostReview';
+import './PostReviews.scss';
 
 function PostReviews(props){
 

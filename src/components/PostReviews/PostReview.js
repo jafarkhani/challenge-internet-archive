@@ -1,4 +1,5 @@
-import XDate from '../core/XDate';
+import XDate from '../../utils/XDate';
+import './PostReviews.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
