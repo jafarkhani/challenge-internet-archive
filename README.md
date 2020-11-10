@@ -4,6 +4,7 @@
 
 1. clone the repository
 2. run 'npm install' command
+3. run 'npm cache clean --force' command
 3. run 'npm start' command
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
