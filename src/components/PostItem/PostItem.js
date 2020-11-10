@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { useParams, withRouter } from "react-router";
+import { useParams } from "react-router";
 import _ from 'underscore';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './PostItem.scss';
@@ -75,7 +75,7 @@ function PostItem(props){
         <div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col text-center post-video-container">
+                    <div data-testid="post-video-container" className="col text-center post-video-container">
                         <PostVideo identifier={identifier}/>
                     </div>
                 </div>
@@ -132,4 +132,4 @@ function PostItem(props){
     );
 }
 
-export default withRouter(PostItem);
+export default PostItem;

@@ -24,7 +24,7 @@ function RelatedItems(props){
     const[error, setError] = useState(false);    
     
     useEffect(() => {
-
+        
         const fetchDate = async ()=>{
             try{
                 const res = await fetch(props.urls.relatedItems + props.identifier);
@@ -44,7 +44,8 @@ function RelatedItems(props){
             }
         };
         fetchDate();
-    },[]);
+
+    },[items, props.identifier, props.urls.relatedItems]);
             
     if(loading)
         return <Loading msg="loading related items..." />
@@ -58,9 +59,14 @@ function RelatedItems(props){
 
     return (
         <Swiper
-            spaceBetween={50}
-            slidesPerView={4}
-            autoplay
+            spaceBetween={20}
+            slidesPerView={1}
+            autoPlay
+            breakpoints={{
+                640: {slidesPerView: 3},
+                768: {slidesPerView: 3},
+                1024: {slidesPerView: 5}
+                }}
             navigation                
             >
             {swipSliders}

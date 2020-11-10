@@ -8,12 +8,12 @@ function PostDetails(props){
     let rows = Object.keys(props.metadata)
         .filter(key => exceptionKeys.indexOf(key) === -1 )
         .map(key => 
-            <tr>
+            <tr key={key}>
                 <td className="post-metadata-key">{key}</td>
                 <td className="post-metadata-value">{props.metadata[key]}</td>
             </tr> 
         );
-    
+        
     return (
         <table>
             {rows}

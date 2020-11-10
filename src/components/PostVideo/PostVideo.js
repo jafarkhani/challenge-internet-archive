@@ -4,6 +4,7 @@ function PostVideo(props){
 
     return (
         <iframe 
+            data-testid="post-video"
             title={props.identifier}
             className="video-frame" 
             src={`https://archive.org/embed/${props.identifier}`}

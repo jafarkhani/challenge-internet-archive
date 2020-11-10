@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostVideo snapshop Post Video 1`] = `
+<iframe
+  allowFullScreen={true}
+  className="video-frame"
+  data-testid="post-video"
+  frameBorder="0"
+  mozallowfullscreen="true"
+  src="https://archive.org/embed/test"
+  title="test"
+  webkitallowfullscreen="true"
+/>
+`;

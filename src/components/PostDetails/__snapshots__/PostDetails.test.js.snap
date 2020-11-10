@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostDetails render metadata post details 1`] = `
+<table>
+  <tr>
+    <td
+      className="post-metadata-key"
+    >
+      key1
+    </td>
+    <td
+      className="post-metadata-value"
+    >
+      data1
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`PostDetails snapshop metadata post details 1`] = `
+<table>
+  <tr>
+    <td
+      className="post-metadata-key"
+    >
+      key1
+    </td>
+    <td
+      className="post-metadata-value"
+    >
+      data1
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`PostDetails snapshot metadata post details 1`] = `
+<table>
+  <tr>
+    <td
+      className="post-metadata-key"
+    >
+      key1
+    </td>
+    <td
+      className="post-metadata-value"
+    >
+      data1
+    </td>
+  </tr>
+</table>
+`;
