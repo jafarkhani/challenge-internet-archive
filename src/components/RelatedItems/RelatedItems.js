@@ -45,7 +45,7 @@ function RelatedItems(props){
         };
         fetchDate();
 
-    },[items, props.identifier, props.urls.relatedItems]);
+    },[props.identifier]);
             
     if(loading)
         return <Loading msg="loading related items..." />
